@@ -1,0 +1,838 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.container{
+    height: 100%;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0071bc;
+    position: fixed;
+    z-index: 1;
+}
+
+.cover{
+    background: url("../img/cover.jpg") no-repeat center center fixed; 
+    -webkit-logical-height: -webkit-fill-available;
+    background-size: cover;
+}
+.word1{
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 36pt;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 130px; left: 0; bottom: 0; right: 0;
+}
+.word2{
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 40pt;
+    color: #0071bc;
+    margin-top: 40px;
+    text-align: center;
+}
+.word3 {
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 30pt;
+    color: #ffffff;
+    margin-left: 45px;
+    margin-top: 45px;
+    float: left;
+    text-align: center;
+}
+.word4 {
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 20pt;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.tagline4-more {
+    width: 150px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    float: right;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-top: 45px;
+}
+.tagline4-more:hover {
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+}
+.iot{
+    width: 50%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.img-tagline2 {
+    width: 30%;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.tagline1{
+    height: auto;
+}
+.tagline2{
+    height: 590px;
+    background-color: #e5f5f7;
+}
+.tagline3{
+    height: 590px;
+}
+.tagline4{
+    height: 150px;
+    background-color: #0071bc;
+}
+.school{
+    width: 30%;
+    margin-top: 100px;
+    margin-right: 44px;
+    float: right;
+}
+.logo {
+    height: 54px;
+    margin-top: 4px;
+    margin-left: 88px;
+}
+.cover a{
+    color: #000000;
+}
+.social-icon{
+    position: absolute;
+    margin-left: 25%;
+    height: 50px;
+}
+.social-icon li{
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+.social-icon li:hover{
+    margin-top: 2px;
+    transition: 0.5s;
+}
+.contact-icon{
+    position: absolute;
+    margin-left: 47%;
+}
+.contact-icon li{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+.contact-icon li:hover{
+    margin-top: 2px;
+    transition: 0.5s;
+}
+.call{
+    font-family: "Open Sans";
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.navbar-menu {
+     float: right;
+     margin: 12px 50px;
+     border: 2px solid #ffffff;
+     width: 44px;
+     height: 34px;
+     border-radius: 5px;
+     background-color: transparent;
+     color: #ffffff;
+     font-weight: bolder;
+     -webkit-appearance: button;
+     cursor: pointer;
+}
+.navbar-menu:hover{
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17pt;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: "Open Sans";
+}
+a .active{
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.footer {
+    height: 377px;
+    background-color: #009ddc;
+    position: absolute;
+    width: 100%;
+}
+.footer-nav li{
+    display: inline;
+    font-size: 14pt;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-left: 20px;
+}
+.footer-nav{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-nav a{
+    text-decoration: none;
+}
+.footer-social{
+    margin-left: 33%;
+    margin-top: 20px;
+}
+.footer-social li{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+.footer-info{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 14pt;
+    color: #73c2fb;
+    font-family: "Open Sans";
+}
+.email{
+    font-size: 14pt;
+    color: #d1edfb;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+.footer-line{
+    margin-top: 40px;
+    border: 1px solid #73c2fb;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14pt;
+    color: #d1edfb;
+    font-family: "Open Sans";
+}
+.box1-tg1{
+    width: 221px;
+    height: 67px;
+    border: 3px solid #009e49;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #02b655;
+    display: inline-block;
+    margin-top: 80px; 
+    margin-left: 10px;
+    font-family: "Open Sans";
+    color: #009e49;
+}
+.box1-tg1:hover{
+    transition: 0.5s;
+    background-color: #009e49;
+    color: #ffffff;
+}
+.box2-tg1{
+    width: 221px;
+    height: 67px;
+    border: 3px solid #3a75c4;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #3e80d7;
+    display: inline-block;
+    margin-top: 10px; 
+    margin-left: 10px;
+    font-family: "Open Sans";
+    color: #3a75c4;
+}
+.box2-tg1:hover{
+    transition: 0.5s;
+    background-color: #3a75c4;
+    color: #ffffff;
+}
+.box3-tg1{
+    width: 221px;
+    height: 67px;
+    border: 3px solid #e28c05;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #f09e1c;
+    display: inline-block;
+    margin-top: 10px; 
+    margin-left: 10px;
+    font-family: "Open Sans";
+    color: #e28c05;
+}
+.box3-tg1:hover{
+    transition: 0.5s;
+    background-color: #e28c05;
+    color: #ffffff;
+}
+.box4-tg1{
+    width: 221px;
+    height: 67px;
+    border: 3px solid #d14414;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #db5223;
+    display: inline-block;
+    margin-top: 10px; 
+    margin-left: 10px;
+    font-family: "Open Sans";
+    color: #d14414;
+}
+.box4-tg1:hover{
+    transition: 0.5s;
+    background-color: #d14414;
+    color: #ffffff;
+}
+.box5-tg1{
+    width: 221px;
+    height: 67px;
+    border: 3px solid #565959;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #626666;
+    display: inline-block;
+    margin-top: 10px; 
+    margin-left: 10px;
+    font-family: "Open Sans";
+    color: #565959;
+    margin-bottom: 100px;
+}
+.box5-tg1:hover{
+    transition: 0.5s;
+    background-color: #565959;
+    color: #ffffff;
+}
+.popup-read-more {
+    width: 150px;
+    height: 37px;
+    font-family: "Open Sans";
+    color: #73c2fb;
+    border: 2px solid #0071bc;
+    background-color: #3e80d7;
+    border-radius: 5px;
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+}
+.popup-read-more:hover{
+    background-color: #0071bc;
+    transition: 0.5s;
+}
+.what-is{
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 36pt;
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+    color: #0071bc;
+}
+.iot-title {
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 36pt;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 85px;
+    margin-top: 90px;
+}
+.title-education{
+    font-weight: bold;
+    font-style: italic;
+    font-family: "'crimson_textsemibolditalic',serif";
+    font-size: 36pt;
+    float: left;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #0071bc;
+}
+.content-education{
+    width: 600px;
+    height: auto;
+    font-family: "Open Sans";
+    font-size: 14pt;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 150px;
+    color: #0071bc;
+}
+.content-iot{
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.video-what-is {
+    width: 620px;
+    margin-left: 700px;
+}
+.tagline2-1{
+    background-color: #009ed8;
+    height: 535px;
+}
+.tagline1-contact{
+    height: auto;
+    background-color: #3aabcb;
+}
+.contact-container{
+    background: url("../img/713.jpg") no-repeat center center fixed; 
+    -webkit-logical-height: -webkit-fill-available;
+    background-size: cover;
+}
+.mission-container{
+    background: url("../img/713.jpg") no-repeat center center fixed; 
+    -webkit-logical-height: -webkit-fill-available;
+    background-size: cover;
+}
+.smart-concept-container{
+    background: url("../img/713.jpg") no-repeat center center fixed; 
+    -webkit-logical-height: -webkit-fill-available;
+    background-size: cover;
+}
+.contact-box {
+    width: 70%;
+    height: 500px;
+    margin: 8% 15%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 113, 188, 0.83);
+}
+.contact-content {
+    height: 90px;
+    background-color: rgba(115, 194, 251, 0.27);
+    border-radius: 10px 10px 0px 0px;
+}
+.content-contact-us {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 20px;
+}
+.form-contact {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.form-info {
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    border: transparent;
+}
+.contact-message {
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+    border: transparent;
+}
+.submit-contact {
+    width: 300px;
+    height: 40px;
+    background-color: #009e49;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "Open Sans";
+    font-size: 13pt;
+    font-weight: bold;
+    color: #ffffff;
+}
+.submit-contact:hover {
+    background-color: #02863f;
+    transition: 0.5s;
+}
+.message-img {
+    width: 80px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 3px;
+}
+.gmaps-view {
+    width: 145px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 90px;
+}
+.content1-about{
+    height: 1200px;
+}
+.about-title {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 430px;
+    font-family: "Open Sans";
+}
+.content2-about {
+    clear: left;
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.about-img {
+    width: 30%;
+    margin-top: 150px;
+    margin-left: -37%;
+}
+.smart-city-img {
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.smart-city-title {
+    float: left;
+    position: absolute;
+    margin-top: 100px;
+    font-family: "Open Sans";
+    margin-left: 39%;
+}
+.smart-city-img {
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+.container-smart-city{
+    height: 1500px;
+}
+.smart-city-content {
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.mission-box {
+    width: 70%;
+    height: 500px;
+    margin: 8% 15%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 113, 188, 0.83);
+}
+.mission-title {
+    height: 90px;
+    background-color: rgba(115, 194, 251, 0.27);
+    border-radius: 10px 10px 0px 0px;
+}
+.content-mission-title {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 20px;
+}
+.smart-concept-box {
+    width: 70%;
+    height: 500px;
+    margin: 8% 15%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #111;
+}
+.smart-concept-title {
+    height: 90px;
+    background-color: rgba(115, 194, 251, 0.27);
+    border-radius: 10px 10px 0px 0px;
+}
+.content-smart-concept-title {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 20px;
+}
+.img-mission {
+    float: right;
+    margin-right: 70px;
+    margin-top: 5px;
+    width: 8%;
+}
+.content-mission1 {
+    width: 88%;
+    height: 65px;
+    background-color: #f09e1c;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 10px inset transparent;
+    font-family: "Open Sans";
+    font-size: 12pt;
+}
+.content-mission2 {
+    width: 88%;
+    height: 50px;
+    background-color: #e52c27;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 10px inset transparent;
+    font-family: "Open Sans";
+    font-size: 12pt;
+}
+.content-mission3 {
+    width: 88%;
+    height: 50px;
+    background-color: #079046;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 10px inset transparent;
+    font-family: "Open Sans";
+    font-size: 12pt;
+}
+.content-mission4 {
+    width: 88%;
+    height: 50px;
+    background-color: purple;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 10px inset transparent;
+    font-family: "Open Sans";
+    font-size: 12pt;
+}
+.smart-concept-img {
+    width: 9%;
+    float: right;
+    margin-right: 5%;
+}
+.box1-tg1-concept {
+    width: 221px;
+    height: 67px;
+    border: 3px solid #009e49;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #02b655;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 10px;
+    font-family: "Open Sans";
+    color: #009e49;
+}
+.container-smart-economy{
+    height: auto;
+}
+.smart-economy-img {
+    width: 32%;
+    border-radius: 10px;
+    margin-top: 12%;
+    margin-left: 29%;
+}
+.smart-economy-title {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 35%;
+    font-family: "Open Sans";
+}
+.smart-economy-content {
+    font-size: 14pt;
+    font-family: "Open Sans";
+    margin: 5%;
+}
+.container-smart-government{
+    height: auto;
+}
+.smart-government-img {
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 12%;
+}
+.smart-government-title {
+    margin-top: 7%;
+    position: absolute;
+    margin-left: 39%;
+    font-family: "Open Sans";
+}
+.smart-government-content {
+    margin: 5%;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.container-smart-living{
+    height: auto;
+}
+.smart-living-img {
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 29%;
+    margin-top: 17%;
+}
+.smart-living-title {
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 40%;
+    font-family: "Open Sans";
+}
+.smart-living-content {
+    margin: 5%;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.container-smart-mobility{
+    height: auto;
+}
+.smart-mobility-title{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: "Open Sans";
+}
+.smart-mobility-img{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 29%;
+    margin-top: 14%;
+}
+.smart-mobility-content {
+    margin: 5%;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.container-smart-people{
+    height: auto;
+}
+.smart-people-title{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: "Open Sans";
+}
+.smart-people-img{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 29%;
+    margin-top: 14%;
+}
+.smart-people-content {
+    margin: 5%;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+@media screen and (max-width : 1024px ){
+  .content-iot{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  .iot-title {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .content-education{
+    margin-left: 50px;
+    margin-top: 120px;
+  }
+  .title-education{
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+  .what-is{
+    margin-right: 80px;
+  }
+  .tagline2-1{
+    height: 445px;
+  }
+  .tagline3{
+    height: 450px;
+  }
+  .video-what-is {
+    width: 570px;
+    margin-left: 440px;
+  }
+  .contact-box {
+    margin: 13% 15%;
+  }
+  .gmaps-view {
+    margin-left: 575px;
+  }
+  .about-title {
+    margin-left: 220px;
+  }
+  .about-img {
+    margin-left: -41%;
+  }
+  .smart-city-title {
+    margin-left: 36%;
+  }
+  .content-mission1 {
+    height: 87px;
+  }
+  .content-mission2 {
+    height: 64px;
+  }
+  .smart-economy-title {
+    margin-top: 10%;
+    margin-left: 36%;
+  }
+  .smart-economy-img {
+    margin-top: 16%;
+    margin-left: 34%;
+  }
+  .smart-government-title {
+    margin-top: 10%;
+    margin-left: 34%;
+  }
+  .smart-government-img {
+    margin-top: 17%;
+  }
+  .smart-living-title {
+    margin-left: 36%;
+  }
+  .smart-mobility-title {
+    margin-left: 37%;
+  }
+  .smart-mobility-img {
+    margin-top: 16%;
+  }
+}

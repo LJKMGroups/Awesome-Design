@@ -1,0 +1,144 @@
+@media screen and (max-width : 768px ){
+  .social-icon{
+  	visibility: hidden;
+  }
+  .contact-icon{
+  	visibility: hidden;
+  }
+  .img-tagline2 {
+    width: 30%;
+    margin-left: 35px;
+    margin-top: 35px;
+  }
+  .what-is {
+    margin-right: 60px;
+    margin-top: 200px;
+  }
+  .iot-title {
+    font-size: 30pt;
+  }
+  .content-iot {
+    width: 355px;
+  }
+  .iot {
+    width: 42%;
+  }
+  .tagline2-1 {
+    height: 490px;
+  }
+  .title-education{
+    font-size: 30pt;
+  }
+  .content-education {
+    width: 450px;
+  }
+  .tagline3 {
+    height: 530px;
+  }
+  .word3{
+  	font-size: 21pt;
+  }
+  .tagline4-more{
+  	margin-right: 7%;
+    margin-top: 38px;
+  }
+  .tagline4 {
+    height: 120px;
+  }
+  .footer-social {
+    margin-left: 20%;
+  }
+  .video-what-is {
+    width: 500px;
+    margin-left: 250px;
+  }
+  .form-info {
+    width: 400px;
+  }
+  .contact-message {
+    width: 400px;
+  }
+  .contact-box {
+    height: 630px;
+  }
+  .gmaps-view {
+    margin-left: 200px;
+    margin-top: 390px;
+  }
+  .about-title {
+    margin-left: 120px;
+  }
+  .about-img {
+    margin-left: -50%;
+  }
+  .content1-about {
+    height: 1300px;
+  }
+  .smart-city-title {
+    margin-left: 30%;
+  }
+  .container-smart-city {
+    height: 1700px;
+  }
+  .mission-box {
+    margin: 10% 15%;
+    height: 530px;
+  }
+  .content-mission1 {
+    height: 132px;
+    margin-top: 10px;
+  }
+  .content-mission2 {
+    height: 83px;
+    margin-top: 5px;
+  }
+  .content-mission3 {
+    height: 63px;
+    margin-top: 5px;
+  }
+  .content-mission4 {
+    height: 42px;
+    margin-top: 5px;
+  }
+  .smart-concept-box {
+    margin: 10% 15%;
+    height: 530px;
+  }
+  .smart-concept-img {
+    width: 12%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+  .smart-concept-container{
+      height: 700px;
+  }
+  .smart-economy-title {
+    margin-left: 31%;
+  }
+  .smart-government-title {
+    margin-top: 14%;
+    margin-left: 30%;
+  }
+  .smart-government-img {
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 22%;
+  }
+  .smart-living-title {
+    margin-left: 30%;
+    margin-top: 13%;
+  }
+  .smart-living-img {
+    margin-top: 21%;
+  }
+  .smart-mobility-title {
+    margin-left: 32%;
+  }
+  .smart-people-title {
+    margin-left: 34%;
+  }
+  .smart-people-img {
+    margin-top: 18%;
+  }
+}

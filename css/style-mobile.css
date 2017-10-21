@@ -1,0 +1,489 @@
+@media screen and (max-width : 425px ){
+  .logo {
+    margin-left: 8px;
+  }
+  .word1{
+    font-size: 20pt;
+  }
+  .word2{
+     font-size: 24pt;
+  }
+  .tagline1 {
+    height: auto;
+  }
+  .img-tagline2 {
+    width: 35%;
+    margin-left: 126px;
+  }
+  .what-is{
+    font-size: 28pt;
+  }
+  .iot {
+    width: 70%;
+    margin-top: 30px;
+  }
+  .iot-title {
+    font-size: 20pt;
+    margin-top: 189px;
+  }
+  .content-iot{
+    margin-top: 215px;
+  }
+  .tagline2-1 {
+    height: 650px;
+  }
+  .school {
+    width: 35%;
+    margin-top: 45px;
+    margin-right: 140px;
+  }
+  .title-education {
+    font-size: 20pt;
+    margin-top: 160px;
+  }
+  .content-education {
+    width: 370px;
+    margin-top: 195px;
+    margin-left: 35px;
+  }
+  .tagline3 {
+    height: 630px;
+  }
+  .navbar-menu{
+    margin: 12px 20px;
+  }
+  .word3 {
+    font-size: 15pt;
+    margin-top: 25px;
+  }
+  .tagline4-more {
+    margin-right: 32%;
+    margin-top: 12px;
+    width: 137px;
+    height: 37px;
+  }
+  .word4{
+    font-size: 18pt;
+  }
+  .footer-social {
+    margin-left: -3%;
+    margin-top: 50px;
+    float: left;
+  }
+  .footer-nav {
+    margin-top: 35px;
+  }
+  .footer-nav li {
+    font-size: 10pt;
+    margin-left: 14px;
+    float: left;
+  }
+  .video-what-is {
+    width: 400px;
+    margin-left: 15px;
+  }
+  .form-contact {
+    margin-left: 20px;
+  }
+  .form-info {
+    width: 255px;
+  }
+  .contact-message {
+    width: 255px;
+  }
+  .submit-contact {
+    width: 255px;
+  }
+  .gmaps-view {
+    display: none;
+  }
+  .contact-box {
+    margin: 19% 15%;
+  }
+  .contact-box {
+    height: 480px;
+  }
+  .content-contact-us {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .message-img {
+    margin-right: 18px;
+  }
+  .about-title {
+    margin-left: 0px;
+    font-size: 20pt;
+  }
+  .about-img {
+    margin-left: -65%;
+    margin-top: 40%;
+  }
+  .content2-about {
+    font-size: 12pt;
+  }
+  .content1-about {
+    height: 1400px;
+  }
+  .smart-city-title {
+    margin-left: 14%;
+  }
+  .container-smart-city {
+    height: 2300px;
+  }
+  .smart-city-img {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-top: 165px;
+  }
+  .content-mission-title {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .mission-box {
+    margin: 20% 15%;
+  }
+  .mission-box {
+    width: 90%;
+    margin-left: 5%
+  }
+  .content-mission1 {
+    font-size: 10pt;
+    margin-left: 4%;
+  }
+  .content-mission2 {
+    font-size: 10pt;
+    margin-left: 4%;
+  }
+  .content-mission3 {
+    font-size: 10pt;
+    margin-left: 4%;
+  }
+  .content-mission4 {
+    font-size: 10pt;
+    margin-left: 4%;
+  }
+  .img-mission {
+    margin-right: 26px;
+    width: 15%;
+  }
+  .mission-container {
+    height: 700px;
+  }
+  .smart-concept-box {
+    margin: 20% 15%;
+  }
+  .content-smart-concept-title {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .box1-tg1-concept {
+    margin-top: 16px;
+  }
+  .smart-concept-img {
+    width: 15%;
+  }
+  .smart-economy-title {
+    margin-left: 26%;
+    font-size: 18pt;
+    margin-top: 20%;
+  }
+  .smart-economy-img {
+    width: 85%;
+  }
+  .smart-economy-img {
+    margin-top: 33%;
+    margin-left: 8%;
+  }
+  .smart-economy-content {
+    font-size: 12pt;
+  }
+  .smart-government-title {
+    margin-top: 20%;
+    margin-left: 21%;
+    font-size: 18pt;
+  }
+  .smart-government-img {
+    width: 72%;
+    margin-left: 14%;
+    margin-top: 33%;
+  }
+  .smart-government-content {
+    font-size: 12pt;
+  }
+  .smart-living-title {
+    margin-left: 23%;
+    margin-top: 26%;
+    font-size: 18pt;
+  }
+  .smart-living-img {
+    margin-top: 37%;
+    width: 73%;
+    margin-left: 15%;
+  }
+  .smart-living-content {
+    font-size: 12pt;
+  }
+  .smart-mobility-title {
+    margin-left: 24%;
+    margin-top: 22%;
+    font-size: 18pt;
+  }
+  .smart-mobility-img {
+    margin-top: 33%;
+    width: 72%;
+    margin-left: 15%;
+  }
+  .smart-mobility-content {
+    font-size: 12pt;
+  }
+  .smart-people-title {
+    margin-left: 28%;
+    font-size: 18pt;
+    margin-top: 22%;
+  }
+  .smart-people-img {
+    margin-top: 33%;
+    width: 60%;
+    margin-left: 19%;
+  }
+  .smart-people-content {
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width : 375px ){
+  .video-what-is {
+    width: 345px;
+  }
+  .tagline2 {
+    height: 520px;
+  }
+  .what-is {
+    margin-right: 35px;
+  }
+  .content-iot {
+    width: 320px;
+  }
+  .tagline2-1 {
+    height: 700px;
+  }
+  .content-education {
+    width: 325px;
+  }
+  .tagline3 {
+    height: 665px;
+  }
+  .word3{
+    margin-left: 25px;
+  }
+  .tagline4-more {
+    margin-right: 30%;
+  }
+  .footer-nav{
+    visibility: hidden;
+  }
+  .footer-social {
+    margin-left: -12%;
+    margin-top: -45px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .form-info {
+    width: 225px;
+  }
+  .contact-message {
+    width: 225px;
+  }
+  .submit-contact {
+    width: 225px;
+  }
+  .about-img {
+    margin-top: 44%;
+  }
+  .content1-about {
+    height: 1550px;
+  }
+  .smart-city-title {
+    margin-left: 10%;
+    font-size: 23pt;
+  }
+  .smart-city-content {
+    font-size: 12pt;
+  }
+  .container-smart-city {
+    height: 2000px;
+  }
+  .content-mission1 {
+    height: 142px;
+  }
+  .content-mission2 {
+    height: 85px;
+  }
+  .content-mission3 {
+    height: 67px;
+  }
+  .content-mission4 {
+    height: 47px;
+  }
+  .mission-box {
+    height: 555px;
+  }
+  .smart-economy-title {
+    margin-left: 23%;
+  }
+  .smart-government-title {
+    margin-left: 18%;
+  }
+  .smart-living-title {
+    margin-left: 19%;
+  }
+}
+@media screen and (max-width : 320px ){
+  .img-tagline2 {
+    margin-left: 120px;
+  }
+  .what-is {
+    font-size: 21pt;
+  }
+  .content-iot {
+    width: 260px;
+  }
+  .word3{
+    margin-left: 0px;
+  }
+  .tagline2-1 {
+    height: 460px;
+  }
+  .content-education {
+    width: 270px;
+    margin-top: 218px;
+  }
+  .school {
+    margin-right: 100px;
+  }
+  .tagline3 {
+    height: 500px;
+  }
+  .tagline4-more {
+    margin-right: 27%;
+    margin-top: 9px;
+  }
+  .footer-nav{
+    visibility: hidden;
+  }
+  .tagline4 {
+    height: 140px;
+  }
+  .mobile-hide{
+    visibility: hidden;
+  }
+  .footer-nav li {
+    font-size: 11pt;
+  }
+  .footer-social li {
+    margin-left: 13px;
+  }
+  .footer-social {
+    margin-left: -15%;
+    margin-top: -45px;
+  }
+  .footer-info {
+    margin-top: 95px;
+  }
+  .footer {
+    height: 315px;
+  }
+  .copyright {
+    margin-top: 20px;
+    font-size: 12pt;
+  }
+  .video-what-is {
+    width: 295px;
+    margin-top: 20px;
+  }
+  .tagline2 {
+    height: 490px;
+  }
+  .contact-box {
+    margin: 25% 15%;
+  }
+  .message-img {
+    margin-right: 4px;
+    width: 60px;
+    margin-top: 11px;
+  }
+  .form-info {
+    width: 190px;
+  }
+  .contact-message {
+    width: 190px;
+  }
+  .submit-contact {
+    width: 190px;
+  }
+  .about-title {
+    font-size: 18pt;
+  }
+  .about-img {
+    margin-top: 50%;
+  }
+  .content2-about {
+    font-size: 11pt;
+  }
+  .smart-city-title {
+    font-size: 20pt;
+  }
+  .container-smart-city {
+    height: 2200px;
+  }
+  .mission-box {
+    margin: 25% 5%;
+  }
+  .content-mission1 {
+    margin-left: 3%;
+    height: 157px;
+  }
+  .content-mission2 {
+    margin-left: 3%;
+    height: 88px;
+  }
+  .content-mission3 {
+    margin-left: 3%;
+    height: 85px;
+  }
+  .content-mission4 {
+    margin-left: 3%;
+    height: 50px;
+  }
+  .mission-box {
+    height: 588px;
+  }
+  .smart-concept-box {
+    width: 88%;
+    margin: 25% 5%;
+  }
+  .smart-economy-title {
+    margin-left: 18%;
+    margin-top: 27%;
+  }
+  .smart-economy-img {
+    margin-top: 40%;
+  }
+  .smart-government-title {
+    margin-left: 11%;
+    margin-top: 30%;
+  }
+  .smart-government-img {
+    margin-top: 46%;
+  }
+  .smart-living-title {
+    margin-left: 12%;
+  }
+  .smart-mobility-title {
+    margin-left: 20%;
+  }
+  .smart-people-title {
+    margin-left: 22%;
+  }
+}
